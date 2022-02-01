@@ -4,9 +4,365 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Booksdeal</title>
+   
 </head>
 <body>
-    <h1>hello world</h1>
+    <!-- Navbar or Header ============================================================================== -->
+    <nav class="header navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="/img/logo.png" class="logo" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link active" href="all categories.html">All Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="mobile phones.html">Mobile Phones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="cars.html">Cars</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="motorcycles.html">Motorcycles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="houses.html">Houses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="tv video audio.html">TV-Video-Audio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="tablets.html">Tablets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="land and plots.html">Land & Plots</a>
+                </li>
+            </ul>
+                <!-- Example single danger button -->
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary mr-3 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    My Profile
+                    </button>
+                    <div class="dropdown-menu">
+                    <a class="dropdown-item" href="my ads.html">My Ads</a>
+                    <a class="dropdown-item" href="../index.html">Logout</a>
+                    </div>
+                </div>
+                <a href="sell.html"><button class="btn btn-outline-primary my-2 my-sm-0">Sell</button></a>
+        </div>
+    </nav>
+
+    <!-- <a href="/login.html">login</a>
+    <a href="/myads.html">my ads</a>
+    <a href="/sell.html">sell</a>
+    <a href="/signup.html">sign up</a> -->
+
+    
+
+    <!-- carts -->
+  <!-- <div class="container"> -->
+    <h3 class="p-4 text-center color-primary">
+        POPULAR CATEGORIES
+        <small class="text-muted">(top 10)</small>
+      </h3>
+<div class="row col-sm-8 m-auto cart-container">
+    
+    <div class="card m-2" style="width: 18rem;">
+        <img src="/img/books/1.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">₹ 599 <span class="badge bg-info">New</span></h5>
+          <span class="card-text mb-2"><b>auther :</b>abdul kalam</span>
+          <br>
+          <span class="card-text pb-4"><b>publish :</b> 2010-2011 </span>
+          <br>
+          <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+        </div>
+      </div>
+    <div class="card m-2" style="width: 18rem;">
+        <img src="/img/books/2.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">₹ 189</h5>
+          <span class="card-text mb-2"><b>auther :</b>abdul kalam</span>
+          <br>
+          <span class="card-text pb-4"><b>publish :</b> 2010-2011 </span>
+          <br>
+          <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+        </div>
+      </div>
+    <div class="card m-2" style="width: 18rem;">
+        <img src="/img/books/11.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">₹ 490</h5>
+          <span class="card-text mb-2"><b>auther :</b>abdul kalam</span>
+          <br>
+          <span class="card-text pb-4"><b>publish :</b> 2010-2011 </span>
+          <br>
+          <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+        </div>
+      </div>
+    <div class="card m-2" style="width: 18rem;">
+        <img src="/img/books/9.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">₹ 679 <span class="badge bg-info">New</span></h5>
+          <span class="card-text mb-2"><b>auther :</b>abdul kalam</span>
+          <br>
+          <span class="card-text pb-4"><b>publish :</b> 2010-2011 </span>
+          <br>
+          <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+        </div>
+      </div>
+    <div class="card m-2" style="width: 18rem;">
+        <img src="/img/books/5.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">₹892</h5>
+          <span class="card-text mb-2"><b>auther :</b>abdul kalam</span>
+          <br>
+          <span class="card-text pb-4"><b>publish :</b> 2010-2011 </span>
+          <br>
+          <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+        </div>
+      </div>
+    <div class="card m-2" style="width: 18rem;">
+        <img src="/img/books/6.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">₹566</h5>
+          <span class="card-text mb-2"><b>auther :</b>abdul kalam</span>
+          <br>
+          <span class="card-text pb-4"><b>publish :</b> 2010-2011 </span>
+          <br>
+          <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+        </div>
+      </div>
+
+      <div class="card m-2" style="width: 18rem;">
+        <img src="/img/books/7.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">₹ 789</h5>
+          <span class="card-text mb-2"><b>auther :</b>abdul kalam</span>
+          <br>
+          <span class="card-text pb-4"><b>publish :</b> 2010-2011 </span>
+          <br>
+          <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+        </div>
+      </div>
+
+      <div class="card m-2" style="width: 18rem;">
+        <img src="/img/books/8.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">₹789 <span class="badge bg-info">New</span></h5>
+          <span class="card-text mb-2"><b>auther :</b>abdul kalam</span>
+          <br>
+          <span class="card-text pb-4"><b>publish :</b> 2010-2011 </span>
+          <br>
+          <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+        </div>
+      </div>
+
+      <div class="card m-2" style="width: 18rem;">
+        <img src="/img/books/10.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">₹ 199</h5>
+          <span class="card-text mb-2"><b>auther :</b>abdul kalam</span>
+          <br>
+          <span class="card-text pb-4"><b>publish :</b> 2010-2011 </span>
+          <br>
+          <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+        </div>
+      </div>
+
+      <div class="card m-2" style="width: 18rem;">
+        <img src="/img/books/4.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">₹ 199</h5>
+          <span class="card-text mb-2"><b>auther :</b>abdul kalam</span>
+          <br>
+          <span class="card-text pb-4"><b>publish :</b> 2010-2011 </span>
+          <br>
+          <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+        </div>
+      </div>
+
+
+      <div class="card m-2" style="width: 18rem;">
+        <img src="/img/books/11.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">₹892</h5>
+          <span class="card-text mb-2"><b>auther :</b>abdul kalam</span>
+          <br>
+          <span class="card-text pb-4"><b>publish :</b> 2010-2011 </span>
+          <br>
+          <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+        </div>
+      </div>
+
+
+
+      <div class="card m-2" style="width: 18rem;">
+        <img src="/img/books/12.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">₹892</h5>
+          <span class="card-text mb-2"><b>auther :</b>abdul kalam</span>
+          <br>
+          <span class="card-text pb-4"><b>publish :</b> 2010-2011 </span>
+          <br>
+          <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+        </div>
+      </div>
+
+
+
+      <div class="card m-2" style="width: 18rem;">
+        <img src="/img/books/13.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">₹892</h5>
+          <span class="card-text mb-2"><b>auther :</b>abdul kalam</span>
+          <br>
+          <span class="card-text pb-4"><b>publish :</b> 2010-2011 </span>
+          <br>
+          <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+        </div>
+      </div>
+
+
+
+      <div class="card m-2" style="width: 18rem;">
+        <img src="/img/books/14.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">₹892</h5>
+          <span class="card-text mb-2"><b>auther :</b>abdul kalam</span>
+          <br>
+          <span class="card-text pb-4"><b>publish :</b> 2010-2011 </span>
+          <br>
+          <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+        </div>
+      </div>
+
+
+
+      <div class="card m-2" style="width: 18rem;">
+        <img src="/img/books/15.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">₹892</h5>
+          <span class="card-text mb-2"><b>auther :</b>abdul kalam</span>
+          <br>
+          <span class="card-text pb-4"><b>publish :</b> 2010-2011 </span>
+          <br>
+          <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+        </div>
+      </div>
+
+
+
+
+      <div class="card m-2" style="width: 18rem;">
+        <img src="/img/books/16.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">₹892</h5>
+          <span class="card-text mb-2"><b>auther :</b>abdul kalam</span>
+          <br>
+          <span class="card-text pb-4"><b>publish :</b> 2010-2011 </span>
+          <br>
+          <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+        </div>
+      </div>
+
+
+
+
+      <div class="card m-2" style="width: 18rem;">
+        <img src="/img/books/17.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">₹892</h5>
+          <span class="card-text mb-2"><b>auther :</b>abdul kalam</span>
+          <br>
+          <span class="card-text pb-4"><b>publish :</b> 2010-2011 </span>
+          <br>
+          <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+        </div>
+      </div>
+
+
+
+      <div class="card m-2" style="width: 18rem;">
+        <img src="/img/books/18.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">₹892</h5>
+          <span class="card-text mb-2"><b>auther :</b>abdul kalam</span>
+          <br>
+          <span class="card-text pb-4"><b>publish :</b> 2010-2011 </span>
+          <br>
+          <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+        </div>
+      </div>
+
+
+</div>
+  <!-- </div> -->
+    
+    
+   <!-- footer -->
+    <!-- <div class="footer-main">  -->
+    <div class="row footer py-3 mt-5">
+
+        <div class="col-1"></div>
+
+        <div class="col-3">
+            <h6>POPULAR CATEGORIES</h6>
+            <li>Software Developer</li>
+            <li>Science And Technology</li>
+            <li>Agriculture</li>
+            
+        </div>
+
+       
+
+        <div class="col-3">
+            <h6>ABOUT US</h6>
+            <li>About BooksDeal App</li>
+            <li>BooksDeal Blog</li>
+            <li>Contact Us</li>
+            
+        </div>
+
+        <div class="col-3">
+            <h6>BooksDeal</h6>
+            <li>Help And Support</li>
+            
+            <li>Term And Condition</li>
+        </div>
+
+        <div class="col-2">
+            <h6>Follow Us</h6>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>Youtube</li>
+        </div>
+
+        <!-- <div class="col-1"></div> -->
+
+    </div>
+ <!-- RBar =========================================================== -->
+ <div class="row bar">
+    <div class="col-4"></div>
+    <div class="col-8 text-white t14">
+        <p style="font-size: 20px; margin-bottom: 0rem;"><b>
+            BooksDeal&nbsp;&nbsp;
+
+        </b>Buy And Sell Old And New Books</p>
+    </div>
+  
+    
+    <div class="col-1"></div>
+</div>
+<!-- </div> --> 
+
 </body>
 </html>
